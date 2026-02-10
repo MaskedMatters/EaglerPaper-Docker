@@ -2,6 +2,7 @@ services:
   mc:
     container_name: eagler-mc
     build: .
+    platform: linux/arm64
     image: maskedmatters/eagpap-docker:latest
     ports:
       - "25565:25565"
