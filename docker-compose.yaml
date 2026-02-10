@@ -1,8 +1,7 @@
 services:
   mc:
     container_name: eagler-mc
-    build:
-      context: .
+    build: .
     image: maskedmatters/eagpap-docker:latest
     ports:
       - "25565:25565"
