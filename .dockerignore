@@ -1,0 +1,34 @@
+# Ignore common development and version control files
+.dockerignore
+.gitignore
+.git/
+.svn/
+.hg/
+.vscode/
+.idea/
+.cache/
+
+# Ignore development dependencies and build artifacts
+node_modules/
+build/
+dist/
+target/
+
+# Ignore logs and environment-specific files
+*.log
+*.env
+.env.*
+
+# Ignore OS-specific and temporary files
+*.swp
+*.swo
+*~
+*.pyc
+__pycache__/
+
+# Ignore test and documentation related files that aren't needed for runtime
+tests/
+docs/
+htmlcov/
+nosetests.xml
+coverage.xml
