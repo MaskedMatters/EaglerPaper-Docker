@@ -4,7 +4,7 @@ WORKDIR /mc
 
 COPY ./mc .
 
-COPY ./.rcon-cli.yaml /root
+COPY .rcon-cli.yaml /root
 
 RUN chmod +x ./run.sh
 
