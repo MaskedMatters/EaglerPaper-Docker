@@ -2,7 +2,9 @@ FROM eclipse-temurin:17.0.18_8-jdk
 
 WORKDIR /mc
 
-COPY . .
+COPY ./mc .
+
+COPY .rcon-cli.yaml /root
 
 RUN chmod +x ./run.sh
 

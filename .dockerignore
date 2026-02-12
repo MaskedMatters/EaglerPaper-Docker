@@ -1,34 +1,25 @@
-# Ignore common development and version control files
-.dockerignore
+# Common
+README.md
+CHANGELOG.md
+docker-compose.yml
+Dockerfile
+
+# Git
+.git
+.gitattributes
 .gitignore
-.git/
-.svn/
-.hg/
-.vscode/
-.idea/
-.cache/
 
-# Ignore development dependencies and build artifacts
-node_modules/
-build/
-dist/
-target/
-
-# Ignore logs and environment-specific files
-*.log
-*.env
-.env.*
-
-# Ignore OS-specific and temporary files
-*.swp
-*.swo
-*~
-*.pyc
-__pycache__/
-
-# Ignore test and documentation related files that aren't needed for runtime
-tests/
-docs/
-htmlcov/
-nosetests.xml
-coverage.xml
+# Minecraft
+/cache
+/logs
+/world
+/world_nether
+/world_the_end
+/banned-ips.json
+/banned-players.json
+/eula.txt
+/ops.json
+/eagler_skins_cache.db
+/usercache.json
+/version_history.json
+/whitelist.json
